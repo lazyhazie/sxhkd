@@ -4,19 +4,23 @@
 
 # terminal emulator
 super + Return
-	terminator
+	termite
 
 # program launcher
-super + r
+super + p
 	rofi -show run
 
 # filelauncher
-super + e
+super + f
 	pcmanfm
 
 # launch browser
-super + b
-	brave
+super + w
+	firefox
+	
+# launch email
+super + e
+	thunderbird
 
 # make sxhkd reload its configuration files:
 super + Escape
