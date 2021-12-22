@@ -4,14 +4,14 @@
 
 # terminal emulator
 super + Return
-	termite
+	alacritty
 
 # program launcher
 super + p
 	rofi -show run
 
 # filelauncher
-super + f
+super + e
 	pcmanfm
 
 # launch browser
@@ -19,8 +19,12 @@ super + w
 	firefox
 	
 # launch email
-super + e
+super + m
 	thunderbird
+
+# power menu
+super + x
+  rofi -show power-menu -modi power-menu:rofi-power-menu
 
 # make sxhkd reload its configuration files:
 super + Escape
